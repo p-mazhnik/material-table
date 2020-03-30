@@ -451,7 +451,7 @@ var DataManager = /*#__PURE__*/function () {
               setCheck(element.groups);
             } else {
               element.data.forEach(function (d) {
-                d.tableData.checked = checked;
+                d.tableData.checked = d.tableData.disabled ? false : checked;
                 selectedCount++;
               });
             }
@@ -461,7 +461,7 @@ var DataManager = /*#__PURE__*/function () {
         setCheck(this.groupedData);
       } else {
         this.searchedData.map(function (row) {
-          row.tableData.checked = checked;
+          row.tableData.checked = row.tableData.disabled ? false : checked;
           return row;
         });
         selectedCount = this.searchedData.length;
