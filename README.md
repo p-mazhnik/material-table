@@ -1,3 +1,8 @@
+## Fixes
+
+- [issues/1662](https://github.com/mbrn/material-table/issues/1662)
+
+
 <p align="center" style="box-shadow: 2px 2px;">
   <a href="https://material-table.com" rel="noopener" target="_blank" ><img width="200" src="https://raw.githubusercontent.com/mbrn/material-table.com/master/docs/assets/logo-back.png" alt="material-table"></a></p>
 </p>
